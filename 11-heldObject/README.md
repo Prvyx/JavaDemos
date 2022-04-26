@@ -1,0 +1,34 @@
+#### 11-heldObject
+- 泛型和类型安全的容器
+- 容器
+  - Collection(概括了“序列”的概念)，所有的Collection都可以foreach遍历
+    - List：
+      - ArrayList：按照插入的顺序保存元素
+      - LinkedList：按照插入的顺序保存元素.实现了Queue接口
+    - Set：
+      - HashSet：最快的获取元素方式
+      - TreeSet：按照升序保存对象
+      - LinkedHashSet：按照被添加的顺序保存对象
+    - Queue：LinkedList可以向上转型为Queue接口
+    - Stack：jdk实现的java.util.Stack不可取，应使用LinkedList产生更好的Stack
+  - Map：
+    - HashMap：最快的查找方式
+    - TreeMap：升序保存键
+    - LinkedHashMap：按照插入顺序保存键
+- Collections
+  - 服务于Collection的工具类，类似于Arrays
+- Collection和Iterator
+  - Collection（序列容器的根接口）
+    - Collection使用内部类实现Iterator，来进行自定义遍历
+    - [自定义序列容器StudentSequence demo](C:\Users\呵\Desktop\getWork\JavaDemos\11-heldObject\src\main\java\Tester.java)
+  - Iterator
+    - Iterator接口的方法：
+      - 必须重写：next()、hasNext()
+      - remove()(optional operation)：
+        - Removes from the underlying collection the last element returned by this iterator(来自官方文档)
+        - 从基础collection中删除"iterator返回的最后的element"
+- Foreach和Iterator，适用于数组、Collection对象
+  - Foreach在Collection对象 能工作的原因：实现了Iterable接口，iterator()方法返回的Iterator被foreach用来在序列中移动
+  - 想创建一个可以在foreach工作的类，可以把该类实现Iterable接口
+- 容器分类图（包括序列容器和Map）
+  ![img_3.png](img_3.png)

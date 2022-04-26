@@ -1,0 +1,18 @@
+#### 07-reusableClasses
+- 复用
+  - 组合
+  - 继承
+    - 导出类的初始化：
+      - 当创建一个导出类的对象时，该对象包含一个基类的子对象
+      - 这个子对象和使用基类直接创建是一样的，区别：后者来自外部，基类子对象被包装在导出类对象内部
+    - 构造器的调用顺序：调用导出类的相应构造器，若导出类构造器中无调用基类构造器，会默认调用super()。demo:[ConstructorOrder.java](C:\Users\呵\Desktop\getWork\JavaDemos\07-reusableClasses\src\main\java\com\reusableclasses\ConstructorOrder.java)
+    - 重写：只有方法体不同。重载：方法签名不同即可。重写与重载的区别：重写是关于继承的，重载是关于单个类的
+  - 代理
+    - Java不提供支持，但Intellij IDEA工具支持 自动生成”关于代理的代码“ [demo](C:\Users\呵\Desktop\getWork\JavaDemos\07-reusableClasses\src\main\java\com\reusableclasses\DelegatedGenerator.java)
+- 向上转型
+- final
+  - final在数据、方法、类的意思都是：无法改变
+  - final、static修饰的字段用大写表示，各个单词用_分开
+  - final修饰的方法：表示该方法锁定，不能被重写
+  - final修饰的类：表示该类锁定，不能被继承
+- 存在继承时的初始化顺序：《Java编程思想》P146的例子过一下就ok了

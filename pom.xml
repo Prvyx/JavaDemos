@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>JavaDemos</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>01-objectIntroduction</module>
+        <module>02-everythingIsObject</module>
+        <module>03-operators</module>
+        <module>04-controlExecutionProcess</module>
+        <module>05-initialCleanUp</module>
+        <module>06-accessControl</module>
+        <module>07-reusableClasses</module>
+        <module>08-polymorphism</module>
+        <module>09-interface</module>
+        <module>10-innerClass</module>
+        <module>11-heldObject</module>
+        <module>12-exception</module>
+        <module>13-string</module>
+        <module>14-typeInformation</module>
+        <module>15-generic</module>
+        <module>16-array</module>
+        <module>17-deepStudyOfContainers</module>
+        <module>18-JavaIO</module>
+        <module>password</module>
+        <module>nibolan</module>
+        <module>19-enumerationType</module>
+        <module>20-annotations</module>
+        <module>openWindowsApps</module>
+        <module>21-concurrent</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+
+        <!--    设置UTF-8编码-->
+        <!-- 文件拷贝时的编码 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- 编译时的编码 -->
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+    </properties>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+
+    </build>
+    
+</project>

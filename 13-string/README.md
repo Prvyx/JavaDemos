@@ -1,0 +1,55 @@
+#### 13-string
+- String是不可变的
+- StringBuilder
+  - 当通过"+"简单地连接多个字符串时（eg：String s="abc"+"def"+47），JVM会自动调用StringBuilder
+  - 但当循环连接多个字符串时，JVM并不会自动调用StringBuilder，此时可以人为地调用StringBuilder来更高效
+- 格式化输出
+  - Formatter类(Formatter的format()方法：类似于C语言的printf()函数)
+    - 默认右对齐。"-"标志：左对齐
+    - width：最小宽度，不足补齐
+    - precision：最大尺寸。String：输出字符的最大数量；浮点数：小数部分显示出来的位数
+  - String.format()：static方法（eg：String.format("%d,%d, %s",1,7,"dong");）
+- 正则表达式
+  - 基础
+    - 其它语言正则：\d+、\\（表示插入字面上的反斜线）；Java正则：\\d+、\\\\
+    - String自带的正则表达式应用
+      - 匹配：matches("Java正则表达式")（String与Java正则表达式完全匹配才会返回true）
+      - 分割：split("Java正则表达式",int limit(可选))
+      - 替换：replaceFirst("Java正则表达式",replacement)、replaceAll("Java正则表达式",replacement)
+    - String之外的正则：更强大，且若正则被使用多次，有更好的性能
+  - 创建正则
+  - 量词
+    - 贪婪型（Greediness）：默认
+    - ?:勉强型（Laziness）
+    - +:占有型
+  - Pattern、Matcher
+    - 元组
+    - Pattern标记
+    - [关于正则的量词、元组、Pattern标记的demo](C:\Users\呵\Desktop\getWork\JavaDemos\13-string\src\main\java\Quantifiers_Group_PatternTagDemo.java)
+    - 查找的资料：[正则量词的深入理解](https://daimajiaoliu.com/daima/8c7967e4344d406)
+  - split()
+    - String有split()方法，Pattern也有split()方法
+    - split(目标字符串,int limit(可选))（哈哈，和String的split()有点像哦）
+  - 替换
+    - replaceAll(String replacement)
+    - replaceFirst(String replacement)
+    - appendReplacement(StringBuffer sb,String replacement)
+    - appendTail(StringBuffer sb)
+    - 前两个方法的replacement只能是一个固定的字符串，而后两个方法的replacement可以动态改变，不固定
+    - 即，"dongACa"，需求：将是元音的小写字符转为大写，replaceAll()、replaceFirst()虽然可以使用正则把元音字母找出来，但却无法将每个元音转为对应的大写；
+      而使用appendReplacement()、appendTail()，先用正则把元音找出来，然后使用matcher.group().toUpperCase()
+    - [appendReplacement()、appendTail()相对于replaceAll()|replaceFirst()的灵活之处，以及测试reset()方法](C:\Users\呵\Desktop\getWork\JavaDemos\13-string\src\main\java\Replace_ResetDemo.java)
+  - reset(字符串)
+    - 将现有的Matcher对象应用于一个新的字符序列；若方法参数为空，则将Matcher对象重新设置到当前字符序列的起始位置
+  - 正则与Java I/O
+    - [JGrep](C:\Users\呵\Desktop\getWork\JavaDemos\13-string\src\main\java\JGrep.java)
+- 扫描输入
+  - Scanner构造器可以接收任何类型的输入对象（eg：String对象、File对象、InputStream对象、BufferedReader对象等Readable对象） 
+    - [测试Scanner构造器的BufferedReader、File输入对象](C:\Users\呵\Desktop\getWork\JavaDemos\13-string\src\main\java\ReadFileByScanner.java) 
+  - Scanner定界符
+    - scanner.userDelimiter("Java正则表达式")
+    - scanner.delimiter()方法：返回当前作为定界符的Pattern对象
+  - scanner.hasNext(Pattern/String)方法
+    - 注1： scanner.hasNext()与scanner.next()一一对应，若有方法参数，方法参数要相同
+    - 注2：MatchResult match=scanner.match()：（官方文档）返回最后一次扫描操作的匹配结果
+    - [Scanner与正则配合:scanner.hasNext(Pattern/String)方法](C:\Users\呵\Desktop\getWork\JavaDemos\13-string\src\main\java\Scanner_Regex_Demo.java)

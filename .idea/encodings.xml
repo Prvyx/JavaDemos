@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01-objectIntroduction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-objectIntroduction/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-everythingIsObject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-everythingIsObject/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-operators/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-operators/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-controlExecutionProcess/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-controlExecutionProcess/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-initialCleanUp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-initialCleanUp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-accessControl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-accessControl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-reusableClasses/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-reusableClasses/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-polymorphism/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-polymorphism/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-innerClass/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-innerClass/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-heldObject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-heldObject/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-exception/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-string/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-string/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14-typeInformation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14-typeInformation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-generic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-generic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-array/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-array/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17-deepStudyOfContainers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17-deepStudyOfContainers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-JavaIO/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-JavaIO/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19-enumerationType/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19-enumerationType/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20-annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20-annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21-concurrent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21-concurrent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nibolan/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nibolan/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openWindowsApps/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openWindowsApps/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/password/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/password/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

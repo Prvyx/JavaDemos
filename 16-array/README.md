@@ -1,0 +1,29 @@
+#### 16-array
+1. 数组的特殊之处
+   - 效率高。解决更一般化的问题，容器一般优于数组
+2. 多维数组
+   - 使用{}将每个向量分隔开，每对{}括起来的集合都会把你带到下一级数组
+   - 粗糙数组：数组中每个向量都可以具有任何的长度
+   - 打印：Arrays.deepToString()：将多维数组转换为多个String
+3. 数组与泛型
+   - 通常数组与泛型不能很好地结合
+4. 创建测试数据
+5. Arrays工具类
+   - 6个基本方法：
+     - equals()、deepEquals()（多维数组）
+     - fill(a,xxx)：将a的所有值置为xxx
+     - sort()：数组排序
+     - binarySearch()：二分查找（前提：数组已经排序）。若找到，则返回索引；否则，返回负值
+       - 若使用Comparator排序了某个对象数组，且想对该“对象数组”使用binarySearch()方法，则该方法参数需提供同样的Comparator
+     - toString()：数组的String表示
+     - hashCode()：返回数组的散列码
+     - Arrays.asList(任意序列或数组)：返回一个List容器
+   - other方法：
+     - System.arraycopy(i,0,j,0,i.length)（将i数组从0下标开始的长度为i.length的子数组copy到j数组0下标的位置），它复制数组比for循环快很多
+     - 数组的比较：通过Arrays.equal(数组1，数组2) 或 数组1.equal(数组2)
+     - 数组**元素**的比较：
+       - [比较器：内部比较器（通过继承Comparable<>）、外部比较器（通过内部类实现Comparator<>接口）](src/main/java/StudentScore.java)
+       - 注1：Arrays.sort()没有第二个参数时，使用内部比较器；若有第二个参数，则使用的是外部比较器
+       - 注2：查看源码知：Comparable接口与Comparator接口没有关系，而Iterable接口使用了Iterator接口
+       - 资料：[Java学习之内部比较器Comparable和外部比较器Comparator](https://zhuanlan.zhihu.com/p/58196097)
+6. 关于数组与容器的选用规则：优选容器而不是数组，除非“性能成为问题（且切换到数组对性能提高有帮助）”

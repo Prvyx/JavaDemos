@@ -1,0 +1,11 @@
+#### 12-exception
+- Throwable类，Exception类extends Throwable类
+- try-catch-finally
+  - 不同的流：System.out、System.err
+  - e.printStackTrace()将信息输出到标准错误流
+  - finally:清理已经打开的文件或网络连接等资源
+- 自定义异常
+  - 最好从意思相近的异常类继承，但不容易找。So，建立新的异常类，即extends Exception
+  - [自定义异常demo](C:\Users\呵\Desktop\getWork\JavaDemos\12-exception\src\main\java\Tester.java)
+- 继承：导出类重写的方法不能比基类方法抛出更多的异常
+- 把exception抛给上一级：throws

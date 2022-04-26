@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-objectIntroduction/01-objectIntroduction.iml" filepath="$PROJECT_DIR$/01-objectIntroduction/01-objectIntroduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-everythingIsObject/02-everythingIsObject.iml" filepath="$PROJECT_DIR$/02-everythingIsObject/02-everythingIsObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-operators/03-operators.iml" filepath="$PROJECT_DIR$/03-operators/03-operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-controlExecutionProcess/04-controlExecutionProcess.iml" filepath="$PROJECT_DIR$/04-controlExecutionProcess/04-controlExecutionProcess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-initialCleanUp/05-initialCleanUp.iml" filepath="$PROJECT_DIR$/05-initialCleanUp/05-initialCleanUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-accessControl/06-accessControl.iml" filepath="$PROJECT_DIR$/06-accessControl/06-accessControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-reusableClasses/07-reusableClasses.iml" filepath="$PROJECT_DIR$/07-reusableClasses/07-reusableClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-polymorphism/08-polymorphism.iml" filepath="$PROJECT_DIR$/08-polymorphism/08-polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-interface/09-interface.iml" filepath="$PROJECT_DIR$/09-interface/09-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-innerClass/10-innerClass.iml" filepath="$PROJECT_DIR$/10-innerClass/10-innerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-heldObject/11-heldObject.iml" filepath="$PROJECT_DIR$/11-heldObject/11-heldObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-exception/12-exception.iml" filepath="$PROJECT_DIR$/12-exception/12-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-string/13-string.iml" filepath="$PROJECT_DIR$/13-string/13-string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-typeInformation/14-typeInformation.iml" filepath="$PROJECT_DIR$/14-typeInformation/14-typeInformation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-generic/15-generic.iml" filepath="$PROJECT_DIR$/15-generic/15-generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-array/16-array.iml" filepath="$PROJECT_DIR$/16-array/16-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17-deepStudyOfContainers/17-deepStudyOfContainers.iml" filepath="$PROJECT_DIR$/17-deepStudyOfContainers/17-deepStudyOfContainers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-JavaIO/18-JavaIO.iml" filepath="$PROJECT_DIR$/18-JavaIO/18-JavaIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19-enumerationType/19-enumerationType.iml" filepath="$PROJECT_DIR$/19-enumerationType/19-enumerationType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-annotations/20-annotations.iml" filepath="$PROJECT_DIR$/20-annotations/20-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21-concurrent/21-concurrent.iml" filepath="$PROJECT_DIR$/21-concurrent/21-concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaDemos.iml" filepath="$PROJECT_DIR$/.idea/JavaDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nibolan/nibolan.iml" filepath="$PROJECT_DIR$/nibolan/nibolan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openWindowsApps/openWindowsApps.iml" filepath="$PROJECT_DIR$/openWindowsApps/openWindowsApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/password/password.iml" filepath="$PROJECT_DIR$/password/password.iml" />
+    </modules>
+  </component>
+</project>
