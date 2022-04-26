@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nibolan" />
         <module name="02-everythingIsObject" />
         <module name="07-reusableClasses" />
         <module name="06-accessControl" />
@@ -22,7 +21,6 @@
         <module name="11-heldObject" />
         <module name="08-polymorphism" />
         <module name="16-array" />
-        <module name="password" />
         <module name="14-typeInformation" />
         <module name="openWindowsApps" />
         <module name="17-deepStudyOfContainers" />

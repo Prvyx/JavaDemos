@@ -24,9 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/20-annotations/20-annotations.iml" filepath="$PROJECT_DIR$/20-annotations/20-annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/21-concurrent/21-concurrent.iml" filepath="$PROJECT_DIR$/21-concurrent/21-concurrent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaDemos.iml" filepath="$PROJECT_DIR$/.idea/JavaDemos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nibolan/nibolan.iml" filepath="$PROJECT_DIR$/nibolan/nibolan.iml" />
       <module fileurl="file://$PROJECT_DIR$/openWindowsApps/openWindowsApps.iml" filepath="$PROJECT_DIR$/openWindowsApps/openWindowsApps.iml" />
-      <module fileurl="file://$PROJECT_DIR$/password/password.iml" filepath="$PROJECT_DIR$/password/password.iml" />
     </modules>
   </component>
 </project>
